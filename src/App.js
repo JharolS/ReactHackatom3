@@ -14,18 +14,20 @@ function App() {
         </svg>
         </div> */}
         <header>
-        <i>🐟</i>
+        <img  style={{height: 80, width: 80, marginTop: 20}}
+        alt="logo" src='https://www.creativefabrica.com/wp-content/uploads/2020/09/09/Fish-Logo-Graphics-5365128-1.jpg'/>
         <h1>MOFISH</h1>
         <p>in theater</p>
         <p1>coming soon</p1>
         <p2>midnight</p2>
-        <input type="text" name="name"/>
-        <img style={{width: 50, height:50}} 
+        <input style={{height: 15, width: 140, marginTop:45, marginLeft:40}}
+        type="text" name="name"/>
+        <img style={{width: 50, height:50, marginTop:32, marginLeft:40}} 
         alt="user" src="http://simpleicon.com/wp-content/uploads/user1.png"/>
         </header>
         <body>
           <part1>
-            <img style={{width: 90, height:90}}
+            <img style={{width: 350, height:350, marginLeft: 16,marginTop: 35}}
             alt='movi' src='https://www.themoviedb.org/t/p/w500/3UVe8NL1E2ZdUZ9EDlKGJY5UzE.jpg'/>
           </part1>
           <part2>
@@ -35,7 +37,7 @@ function App() {
             <button className="b3">❤️</button>
           </part2>
         </body>
-        <end>
+        <end style={{marginTop: 30}}>
           <part1>
             <c>CAST</c>
             {casts.map(cast =>(
@@ -47,7 +49,7 @@ function App() {
               />
             ))}
           </part1>
-          <part2>
+          <part2 style={{marginLeft: 30}}>
             <d>IN THE NEWS</d>
             {notices.map(notice =>(
               <Notice

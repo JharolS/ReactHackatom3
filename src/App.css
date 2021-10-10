@@ -1,0 +1,57 @@
+.container{
+    margin:20%;
+    border:1px solid black;
+}
+.container header{
+    display:flex;
+    margin-left: 1em;
+}
+.container header h1{
+    margin-top: 40px;
+    font-size: 1.5em;
+}
+.container header p{
+    margin-left: 80px;
+    margin-top: 45px;
+    font-size: 1em;
+}
+.container header p1{
+    margin-left: 40px;
+    margin-top: 45px;
+    font-size: 1em;
+}
+.container header p2{
+    margin-left: 40px;
+    margin-top: 45px;
+    font-size: 1em;
+}
+.container body{
+    display:flex;
+}
+.container body button{
+    margin-left: 2.2em;
+    margin-top: 2em;
+}
+.b1{
+    border-radius: 2em;
+    font-size: 20px;
+    background: yellow;
+}
+.b2{
+    border-radius: 4em;
+    font-size: 20px;
+}
+.b3{
+    border-radius: 2em;
+    font-size: 20px;
+}
+.container end{
+    display:flex;
+}
+.card{
+    margin-top: 1em;
+    display:flex;
+}
+.notice{
+    margin-left: 1em;
+}
