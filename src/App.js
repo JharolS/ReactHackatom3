@@ -7,12 +7,7 @@ import {notices} from './data/notice';
 
 function App() {
   return (
-    <div className="container">
-        {/* <div className="source">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-        <path fill="#0099ff" fill-opacity="1" d="M0,256L24,261.3C48,267,96,277,144,266.7C192,256,240,224,288,218.7C336,213,384,235,432,234.7C480,235,528,213,576,192C624,171,672,149,720,170.7C768,192,816,256,864,245.3C912,235,960,149,1008,112C1056,75,1104,85,1152,106.7C1200,128,1248,160,1296,149.3C1344,139,1392,85,1416,58.7L1440,32L1440,0L1416,0C1392,0,1344,0,1296,0C1248,0,1200,0,1152,0C1104,0,1056,0,1008,0C960,0,912,0,864,0C816,0,768,0,720,0C672,0,624,0,576,0C528,0,480,0,432,0C384,0,336,0,288,0C240,0,192,0,144,0C96,0,48,0,24,0L0,0Z"></path>
-        </svg>
-        </div> */}
+    <div className="container">    
         <header>
         <img  style={{height: 80, width: 80, marginTop: 20}}
         alt="logo" src='https://www.creativefabrica.com/wp-content/uploads/2020/09/09/Fish-Logo-Graphics-5365128-1.jpg'/>
@@ -20,9 +15,9 @@ function App() {
         <p>in theater</p>
         <p1>coming soon</p1>
         <p2>midnight</p2>
-        <input style={{height: 15, width: 140, marginTop:45, marginLeft:40}}
+        <input style={{height: 15, width: 140, marginTop:45, marginLeft:40, borderRadius: 10}}
         type="text" name="name"/>
-        <img style={{width: 50, height:50, marginTop:32, marginLeft:40}} 
+        <img style={{width: 50, height:50, marginTop:32, marginLeft:40,backgroundColor: 'white'}} 
         alt="user" src="http://simpleicon.com/wp-content/uploads/user1.png"/>
         </header>
         <body>
@@ -38,7 +33,7 @@ function App() {
           </part2>
         </body>
         <end style={{marginTop: 30}}>
-          <part1>
+          <part1 style={{marginLeft: 13}}>
             <c>CAST</c>
             {casts.map(cast =>(
               <Card
